@@ -1,2 +1,2 @@
-MATCH (tom:Person {name: "Tom Hanks"})-[:ACTED_IN]->(tomHanksMovies)
-RETURN tom,tomHanksMovies
+MATCH (hugo:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(hugoHugoWeaving)
+RETURN hugo,hugoHugoWeaving
